@@ -1,0 +1,33 @@
+.movie-page{
+    color: #FFF;
+    max-width: 600px;
+    margin: 2rem auto 21rem;
+    background-color: #cccccc1a;
+    padding: 2rem;
+    border: 1px solid #AB894A;
+}
+
+.movie-page .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie-page .card img, .movie-page .card h2, .movie-page .card p, .movie-page .info{
+    margin-bottom: 1.2rem;
+}
+
+.movie-page .card p{
+    display: flex;
+    gap: 0.4rem;
+}
+
+.movie-page .card p svg{
+    color: #f3ef04;
+}
+
+.movie-page .info h3{
+    display: flex;
+    gap: .3rem;
+    margin-bottom: .4rem;
+}

@@ -1,0 +1,55 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.navbar h2 a{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.navbar form{
+    display: flex;
+}
+
+.navbar form ::-webkit-input-placeholder{
+    font-size: 1rem;
+}
+
+.navbar form input{
+    color: #AB894A;
+    background-color: transparent;
+    border: none;
+    border-top: 1px solid #AB894A;
+    border-bottom: 1px solid #AB894A;
+    border-left: 1px solid #AB894A;
+    font-size: 1rem;
+    padding: .8rem;
+    border-radius: .2rem 0 0 .2rem;
+    outline: none;
+    
+}
+
+.navbar form button{
+    color: #AB894A;
+    background-color: transparent;
+    border: none;
+    border-top: 1px solid #AB894A;
+    border-right: 1px solid #AB894A;
+    border-bottom: 1px solid #AB894A;
+    padding: .5rem .75rem;
+    border-radius: 0 .3rem .3rem 0;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.navbar form button:hover{
+    background-color: #AB894A;
+    color: #000616;
+}

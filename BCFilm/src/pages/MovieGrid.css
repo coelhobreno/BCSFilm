@@ -1,0 +1,82 @@
+.container .menu{
+    background-color: #3F3F3F;
+    width: min-content;
+    margin: 0 auto 2rem;
+    display: flex;
+    border-radius: 3rem;
+    overflow: hidden;
+}
+
+.container .menu a{
+    color: #FFF;
+    padding: .7rem 1rem;
+}
+
+.container .menu a:hover{
+    background-color: #333333;
+}
+
+.query-text{
+    font-size: 1.5rem;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.query-text .name_film{
+    color: #AB894A;
+}
+
+.movies_container{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.movies_container .loading{
+    color: #FFF;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+.movies_container div{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: .2rem;
+    padding: 1rem;
+    background-color: #AB894A;
+}
+
+.movies_container div img{
+    width: 100%;
+    margin-bottom: .5rem;
+}
+
+.movies_container div h2{
+    margin-bottom: 1.5rem;
+}
+
+.movies_container div p{
+    display: flex;
+    gap: .4rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.movies_container div p svg{
+    color: #ffee00;
+}
+
+.movies_container div a{
+    font-size: 1.3rem;
+    background-color: #151515;
+    border-radius: .1rem;
+    width: max-content;
+    padding: .3rem;
+}
